@@ -5,6 +5,7 @@ public class HelloSpring {
 	public static void main(String[] args) {
 		MessageBean messageBean = new MessageBean();
 		messageBean.sayHello("Spring");
+		messageBean.sayHello("문제");
 	}
 
 }
